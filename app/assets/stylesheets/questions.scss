@@ -29,7 +29,9 @@ a {
 
 .answer-box {
   border-left: 6px solid lightgray;
-  background-color: beige;
+  &:hover {
+    background-color: beige;
+  }
 }
 
 .answer {
@@ -38,6 +40,12 @@ a {
 
 .question {
   margin-left: 10px;
+}
+
+.question-box {
+  &:hover {
+    background-color: beige;
+  }
 }
 
 .container {
